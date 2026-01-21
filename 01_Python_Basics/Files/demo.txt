@@ -1,0 +1,4 @@
+Python is easy language
+Python is simple and powerful
+django is a framework
+MySql is a Database
