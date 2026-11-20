@@ -13,4 +13,10 @@ print(mySet)    # O/P : {1, 2}
 myList = {1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 5, 5, 5, 4, 4, 4}
 print(set(myList))  # O/P : {1, 2, 3, 4, 5}
 
+s1 = {1, 2, 3, 4, 5}
+s2 = {4, 5, 8, 9, 10}
+s3 = s1.union(s2)
+print(s3)
 
+print(s1.difference(s2))
+print(s1.intersection(s2))

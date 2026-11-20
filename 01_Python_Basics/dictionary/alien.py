@@ -28,5 +28,14 @@ print("==========================")
 alien_0 = {'color': 'green', 'points': 5}
 print(alien_0)
 
-del alien_0['points']
+# del alien_0['points']
+# print(alien_0)
+
+# Methods in dictionary
+print(type(alien_0.keys()))
+print(alien_0.keys())   # return all keys
+print(alien_0.values())    # return all values
+print(alien_0.items())     # return (key, val) pairs
+print(alien_0.get('color'))     # return value for that key
+alien_0.update({'color': 'red'})
 print(alien_0)
